@@ -4,11 +4,11 @@
              xsi:schemaLocation="https://jakarta.ee/xml/ns/persistence https://jakarta.ee/xml/ns/persistence/persistence_3_0.xsd"
              version="3.0">
   <persistence-unit name="default">
-    <class>org.sakute.entities.PremiumUsers</class>
-    <class>org.sakute.entities.BlackListedUsers</class>
-    <class>org.sakute.entities.NaturalDisasters</class>
-    <class>org.sakute.entities.Reminders</class>
-    <class>org.sakute.entities.SearchHistory</class>
-    <class>org.sakute.entities.Users</class>
+    <class>org.sakute.telebot.domain.entities.PremiumUsers</class>
+    <class>org.sakute.telebot.domain.entities.BlackListedUsers</class>
+    <class>org.sakute.telebot.domain.entities.NaturalDisasters</class>
+    <class>org.sakute.telebot.domain.entities.Reminders</class>
+    <class>org.sakute.telebot.domain.entities.SearchHistory</class>
+    <class>org.sakute.telebot.domain.entities.Users</class>
   </persistence-unit>
 </persistence>

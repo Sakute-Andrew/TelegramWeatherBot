@@ -1,13 +1,11 @@
-package org.sakute.persistance.dao.impl;
+package org.sakute.telebot.persistance.dao.impl;
 
-import java.util.List;
 import org.hibernate.Session;
-import org.hibernate.query.NativeQuery;
 import org.hibernate.query.Query;
-import org.sakute.entities.BlackListedUsers;
-import org.sakute.entities.Users;
-import org.sakute.persistance.dao.BlackListedUsersDao;
-import org.sakute.persistance.utility.HibernateUtil;
+import org.sakute.telebot.domain.entities.BlackListedUsers;
+import org.sakute.telebot.domain.entities.Users;
+import org.sakute.telebot.persistance.dao.BlackListedUsersDao;
+import org.sakute.telebot.persistance.utility.HibernateUtil;
 
 public class BlackListedUsersDaoImpl implements BlackListedUsersDao {
 

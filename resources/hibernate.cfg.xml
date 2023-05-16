@@ -26,6 +26,13 @@
     <property name="hibernate.hbm2ddl.auto">update</property>
     <property name="hibernate.show_sql">true</property>
     <property name="hibernate.format_sql">true</property>
+    <mapping class="org.sakute.telebot.domain.entities.Admins"/>
+    <mapping class="org.sakute.telebot.domain.entities.BlackListedUsers"/>
+    <mapping class="org.sakute.telebot.domain.entities.NaturalDisasters"/>
+    <mapping class="org.sakute.telebot.domain.entities.PremiumUsers"/>
+    <mapping class="org.sakute.telebot.domain.entities.Reminders"/>
+    <mapping class="org.sakute.telebot.domain.entities.SearchHistory"/>
+    <mapping class="org.sakute.telebot.domain.entities.Users"/>
 
   </session-factory>
 </hibernate-configuration>

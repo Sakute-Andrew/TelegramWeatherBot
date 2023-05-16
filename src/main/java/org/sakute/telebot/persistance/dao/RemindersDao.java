@@ -1,7 +1,7 @@
-package org.sakute.persistance.dao;
+package org.sakute.telebot.persistance.dao;
 
 import java.util.List;
-import org.sakute.entities.Reminders;
+import org.sakute.telebot.domain.entities.Reminders;
 
 public interface RemindersDao {
 

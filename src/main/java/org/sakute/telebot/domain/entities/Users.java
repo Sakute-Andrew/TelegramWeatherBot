@@ -1,4 +1,4 @@
-package org.sakute.entities;
+package org.sakute.telebot.domain.entities;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;
@@ -14,14 +14,6 @@ import javax.persistence.*;
 @Entity
 @Table(name = "users")
 public class Users {
-
-  @OneToOne(mappedBy = "user", cascade = CascadeType.REMOVE)
-  private BlackListedUsers blackListedUsers;
-  @OneToMany(mappedBy = "user", cascade = CascadeType.REMOVE)
-  private SearchHistory searchHistory;
-  @OneToOne(mappedBy = "user", cascade = CascadeType.REMOVE)
-  private PremiumUsers premiumUsers;
-
 
   @Id
   @GeneratedValue(strategy = GenerationType.IDENTITY)

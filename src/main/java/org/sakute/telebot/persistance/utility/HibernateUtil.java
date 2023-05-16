@@ -1,4 +1,4 @@
-package org.sakute.persistance.utility;
+package org.sakute.telebot.persistance.utility;
 
 import org.hibernate.SessionFactory;
 import org.hibernate.boot.Metadata;

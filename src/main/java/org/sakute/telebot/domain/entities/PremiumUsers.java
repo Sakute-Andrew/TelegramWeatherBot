@@ -1,4 +1,4 @@
-package org.sakute.entities;
+package org.sakute.telebot.domain.entities;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;
@@ -27,11 +27,11 @@ public class PremiumUsers{
         @Column(name = "username")
         private String username;
 
-        @Column(name = "blacklisting_time")
-        private Timestamp blacklistingTime;
+        @Column(name = "subscription_time")
+        private Timestamp subscriptionTime;
 
-        @Column(name = "blacklisting_reason")
-        private String blacklistingReason;
+        @Column(name = "subscription_available_by")
+        private String subscriptionAvailableBy;
 
 
 

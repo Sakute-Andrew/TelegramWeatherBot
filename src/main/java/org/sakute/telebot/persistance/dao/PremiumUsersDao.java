@@ -1,7 +1,7 @@
-package org.sakute.persistance.dao;
+package org.sakute.telebot.persistance.dao;
 
 import java.util.List;
-import org.sakute.entities.PremiumUsers;
+import org.sakute.telebot.domain.entities.PremiumUsers;
 
 public interface PremiumUsersDao {
 

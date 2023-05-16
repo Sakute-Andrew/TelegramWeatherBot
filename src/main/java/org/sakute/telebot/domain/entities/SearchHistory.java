@@ -1,4 +1,4 @@
-package org.sakute.entities;
+package org.sakute.telebot.domain.entities;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;

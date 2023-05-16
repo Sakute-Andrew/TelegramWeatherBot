@@ -1,4 +1,4 @@
-package org.sakute.entities;
+package org.sakute.telebot.domain.entities;
 
 import javax.persistence.Table;
 import lombok.AllArgsConstructor;
